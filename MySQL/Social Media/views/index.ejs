@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AmmedSocial</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="/server.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="nav-title">AmeedSocial</h1>
+        <ul class="nav-links">
+        </ul>
+    </div>
+    <div class="main-login">
+        <div class="login">
+            <div class="login-header">
+                <h4 class="windows-header-text">Log In</h4>
+            </div>
+            <div class="login-content">
+                <form action="/login" method="POST">            
+                    <div class="username-item">
+                        <label>Username: </label>
+                        <input type="text" name="username" placeholder="Enter your username" required>
+                    </div>
+                    <div class="password-item">
+                        <label>Password: </label>
+                        <input type="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" id="signin" class="login-button">Log In</button>
+                </form>
+            </div>
+        </div>        
+        <div class="login">
+            <div class="login-header">
+                <h4 class="windows-header-text">Register</h4>
+            </div>
+            <div class="login-content">
+                <form id="registration-form" action="http://localhost:3000/register" method="post">
+                    <div class="registration-items">
+                        <label>Name: </label>
+                        <input type="text" name="name" placeholder="Enter your name">
+                    </div>
+                    <div class="registration-items">
+                        <label>Location: </label>
+                        <input type="text" name="location" placeholder="Enter your location">
+                    </div>
+                    <div class="registration-items">
+                        <label>Title: </label>
+                        <input type="text" name="title" placeholder="Enter your job title">
+                    </div>
+                    <div class="registration-items">
+                        <label>Certificate: </label>
+                        <input type="text" name="certificate" placeholder="Enter your certificate">
+                    </div>
+                    <div class="username-item">
+                        <label>Username: </label>
+                        <input type="text" name="username" placeholder="Enter your username">
+                    </div>
+                    <div class="password-item">
+                        <label>Password: </label>
+                        <input type="password" name="password" placeholder="Enter your password">
+                    </div>
+                    <button type="submit" class="login-button">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

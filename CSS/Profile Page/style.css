@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: rgb(26, 18, 30);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    color: aliceblue;
+}
+.nav-title {
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+}
+.nav-links a:hover{
+    color: aqua;
+}
+.nav-links a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.btn {
+    background-color:lightskyblue;
+    box-shadow: black;
+    width: 110px;
+    height: 35px;
+    margin-left: 1020px;
+}
+.usercard-1 {
+    margin: 100px;
+    margin-top: 70px;
+    width: 990px;
+    height: 720px;
+    background-color: whitesmoke;
+    border: 5px solid gainsboro;
+    display: inline-block;
+}
+.usercard-content {
+    background-color: lightskyblue;
+    height: 200px;
+    width: 980px;
+}
+#user-circle {
+    padding: 50px 50px 5px 50px;
+    margin-top: 50px;
+}
+#username {
+    margin-left: 70px;
+    font-size: 70px;
+}
+#map-marker {
+    display: inline-block;
+    height: 35px;
+    width: 30px;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+#location-header {
+    display: inline-block;
+    font-size: 35px;
+    margin-left: 10px;
+}
+.description {
+    margin-left: 70px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+#edit-icon {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+#edit-profile-text {
+    display: inline-block;
+    margin-left: 10px;
+}
+.edit-profile {
+    display: flex;
+    align-items: end;
+}
+.education {
+    margin: 100px;
+    margin-top: -40px;
+    width: 990px;
+    height: 320px;
+    background-color: whitesmoke;
+    border: 5px solid gainsboro;
+    display: inline-block;
+}
+.education-header {
+    background-color: rgb(61, 59, 59);
+    height: 50px;
+    width: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+#education-header-text {
+    display: inline-block;
+    color: aliceblue;
+    font-size: 35px;
+    margin-left: 45px;
+}
+.education-content {
+    background-color: lightskyblue;
+    height: 200px;
+    width: 980px;
+}
+.connections {
+    display: inline-block;
+    margin-top: 70px;
+    vertical-align: top;
+}
+.connection-requests {
+    background-color: whitesmoke;
+    border: 5px solid gainsboro;
+    width: 600px;
+    margin-bottom: 50px;
+}
+.connection-requests-header {
+    background-color: rgb(61, 59, 59);
+    height: 50px;
+    width: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.user-circle-connections {
+    height: 80px;
+    width: 80px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.your-connections {
+    background-color: whitesmoke;
+    border: 5px solid gainsboro;
+    width: 600px;
+}
+.your-connections-header {
+    background-color: rgb(61, 59, 59);
+    height: 50px;
+    width: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.connections-header-text {
+    display: inline-block;
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 15px;
+}
+#connections-count {
+    margin-left: 10px;
+    background-color: gainsboro;
+    font-weight: 900;
+    border: none;
+    border-radius: 90%;
+    width: 35px;
+    height: 35px;
+}
+.connections-label {
+    text-align: center;
+    align-items: center;
+    margin-left: 15px;
+    font-size: 30px;
+}
+#viewmore {
+    background-color: whitesmoke;
+    border: 5px solid gainsboro;
+}
+#viewmore-label {
+    padding: 15px;
+    font-size: 20px;
+}
+.connection-item {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.connection-request-item {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+#notifications-count {
+    margin-left: 10px;
+    background-color: gainsboro;
+    border: none;
+    font-size: 25px;
+    font-weight: 900;
+    border-radius: 90%;
+    width: 35px;
+    height: 35px;
+}
+.respond-to-request {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+}
+.connection-request-img-text {
+    width: 460px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.respond-to-request-img {
+    width: 45px;
+    height: 45px;
+}
+#position-header {
+    padding: 25px;
+    font-size: 50px;
+    text-align: center;
+}
+#dates-information {
+    margin-left: 90px;
+    margin-top: -10px;
+    color: rgb(122, 119, 119);
+    font-size: 30px;
+}
+#accomplishments {
+    margin-left: 90px;
+    margin-top: 25px;
+    font-size: 30px;
+}

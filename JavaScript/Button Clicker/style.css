@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+.content {
+    padding: 75px;
+    text-align: center;
+}
+.header {
+    background-color: #CCCCCC;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+h1, .definition-info, .definition-explanation {
+    display: inline-block;
+}
+.definitions-list {
+    display: inline-block;
+}
+#searchbox {
+    border: 2px solid black;
+    width: 300px;
+    height: 32px;
+}
+#login {
+    border: 3px solid black;
+    background-color: #2975E3;
+    color: white;
+    width: 60px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.definition {
+    border: 2px solid black;
+    width: 700px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.definition-info {
+    text-align: center;
+    padding: 12px;
+}
+.word-type {
+    margin-bottom: 10px;
+}
+.word-plural {
+    margin-bottom: 20px;
+}
+.word-type, .italic-text {
+    font-style: italic;
+}
+.word-type, .word-plural {
+    display: block;
+    font-size: 16px;
+}
+.definition-explanation {
+    display: inline-flex;
+    vertical-align: top;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 570px;
+}
+.word-definition {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 550;
+}
+.like-button {
+    border: 4px solid black;
+    background-color: #FED966;
+    width: 90px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 15px;
+}
+p {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 60px;
+}
+.add-definition-window {
+    border: 2px solid black;
+    display: inline-block;
+    width: 300px;
+    height: 190px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 20px;
+}
+h3 {
+    font-size: 30px;
+}
+.bold-text {
+    font-weight: 550;
+}
+#add-definition {
+    border: 4px solid black;
+    background-color: #92C47D;
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 25px;
+}

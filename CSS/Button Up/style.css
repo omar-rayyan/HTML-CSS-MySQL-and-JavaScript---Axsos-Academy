@@ -1,0 +1,38 @@
+#search-button {
+    border-radius: 30%;
+    font-family: sans-serif;
+    color: cyan;
+    background-color:floralwhite;
+    border-color: cyan;
+    font-weight: bold;
+    font-size: large;
+    height: 50px;
+    width: 300px;
+}
+#plus-button {
+    border-radius: 90%;
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    background-color:cyan;
+    border: 0cap;
+    height: 40px;
+    width: 40px;
+}
+#create-account-button {
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color:blue;
+    font-size: large;
+    border-color: black;
+    border-style: solid;
+    height: 50px;
+    width: 300px;
+    border-width: 4px;
+}
+* {
+    margin: 10px;
+    padding: 5px;
+}

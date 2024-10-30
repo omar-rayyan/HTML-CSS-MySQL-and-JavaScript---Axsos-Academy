@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page Website Assignment</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="nav-title">Profile</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+            <li><button class="btn">Sign Out</button></li>
+        </ul>
+    </div>
+    <div class="usercard-1">
+        <div class="usercard-2">
+            <div class="usercard-content">
+                <div class="user">
+                    <img src="icons/user-circle.png" id="user-circle" alt="User Picture">
+                    <h1 id="username">Jane Doe</h1>
+                </div>
+                <div class="location">
+                    <img src="icons/map-marker.png" id="map-marker" alt="Map Marker">
+                    <h2 id="location-header">Seattle</h2>
+                </div>
+                <div class="description">
+                    <label>Developer | Engineer | Problem Solver</label>
+                    <br>
+                    <label>Master of shadows and the Internet!</label>
+                </div>
+                <div class="edit-profile">
+                    <img src="icons/gear.png" id="edit-icon" alt="Edit Profile Icon" onclick="changeName()">
+                    <h2 id="edit-profile-text"><a href="#" onclick="changeName()">Edit Profile</a></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="connections">
+        <div class="connection-requests" id="connection-requests-window">
+            <div class="connection-requests-header">
+                <button id="notifications-count">2</button>
+                <h4 class="connections-header-text">Connection Requests</h4>
+            </div>
+            <div class="connection-request-item" id="todd-request">
+                <img src="icons/user-circle.png" class="user-circle-connections" alt="User Picture">
+                <div class="connection-request-img-text">
+                    <label class="connections-label">Todd E</label>
+                    <div class="respond-to-request">
+                        <img src="icons/accept-circle.png" class="respond-to-request-img" alt="Accept Request" onclick="removeRequest('todd-request', 'accept')">
+                        <img src="icons/close-circle.png" class="respond-to-request-img" alt="Reject Request" onclick="removeRequest('todd-request', 'reject')">
+                    </div>
+                </div>
+            </div>
+            <div class="connection-request-item" id="phil-request">
+                <img src="icons/user-circle.png" class="user-circle-connections" alt="User Picture">
+                <div class="connection-request-img-text">
+                    <label class="connections-label">Phil K</label>
+                    <div class="respond-to-request">
+                        <img src="icons/accept-circle.png" class="respond-to-request-img" alt="Accept Request" onclick="removeRequest('phil-request', 'accept')">
+                        <img src="icons/close-circle.png" class="respond-to-request-img" alt="Reject Request" onclick="removeRequest('phil-request', 'reject')">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="your-connections">
+            <div class="your-connections-header">
+                <button id="connections-count">487</button>
+                <h4 class="connections-header-text">Your Connections</h4>
+            </div>
+            <div class="connection-item">
+                <img src="icons/user-circle.png" class="user-circle-connections" alt="User Picture">
+                <label class="connections-label">Adrien D</label>
+            </div>
+            <div class="connection-item">
+                <img src="icons/user-circle.png" class="user-circle-connections" alt="User Picture">
+                <label class="connections-label">Anne J</label>
+            </div>
+            <div class="connection-item">
+                <img src="icons/user-circle.png" class="user-circle-connections" alt="User Picture">
+                <label class="connections-label">Alayne T</label>
+            </div>
+            <div class="connection-item">
+                <img src="icons/user-circle.png" class="user-circle-connections" alt="User Picture">
+                <label class="connections-label">Arry Y</label>
+            </div>
+            <br>
+            <div id="viewmore">
+                <h5 id="viewmore-label"><a href="">View More</a></h5>
+            </div>
+        </div>
+    </div>
+    <div class="education">
+        <div class="education-header">
+            <h4 id="education-header-text">Education</h4>
+        </div>
+        <h2 id="position-header">Coding Dojo - Full Stack Bootcamp</h2>
+        <h3 id="dates-information">Dec 2019 - Mar 2020</h3>
+        <h4 id="accomplishments">Triple black belt in Python, MERN and C#.</h4>
+    </div>
+</body>
+</html>

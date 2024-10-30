@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker Website Assignment</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Dojonary</h1>
+        <input type="text" id="searchbox" placeholder="Search">
+        <button id="login" onclick="swapLoginText(this)">Login</button>
+    </div>
+    <div class="content">
+        <div class="definitions-list">
+            <div class="definition">
+                <div class="definition-info">
+                    <h2 class="word-definition">ninja</h2>
+                    <label class="word-type">noun</label>
+                    <label class="word-plural">Plural: <span class="italic-text">ninjas</span></label>
+                    <button class="like-button" id="ninja-likes" onclick="addLike(this)">0 like(s)</button>
+                </div>
+                <div class="definition-explanation">
+                    <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="definition">
+                <div class="definition-info">
+                    <h2 class="word-definition">ninja</h2>
+                    <label class="word-type">noun</label>
+                    <label class="word-plural">Plural: <span class="italic-text">ninjas</span></label>
+                    <button class="like-button" id="programmer-likes" onclick="addLike(this)">0 like(s)</button>
+                </div>
+                <div class="definition-explanation">
+                    <p>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="add-definition-window">
+            <h3>Dojonary is defined by <span class="bold-text">YOU</span></h3>
+            <button id="add-definition" onclick="removeElement(this)">Add Definition</button>
+        </div>
+    </div>
+</body>
+</html>

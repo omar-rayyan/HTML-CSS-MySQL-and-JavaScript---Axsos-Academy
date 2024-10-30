@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+.main {
+    border: 3px solid black;
+    display: inline-block;
+    width: 390px;
+    margin: 100px;
+    padding: 10px;
+}
+h2 {
+    display: inline-block;
+    padding: 10px;
+}
+#likes {
+    margin-left: 80px;
+}
+#like-button {
+    margin-left: 20px;
+    width: 50px;
+    height: 30px;
+    background-color: #FFD966;
+    border: 3px solid black;
+    box-shadow: 3px 2px black;
+}
+#filler-text {
+    font-size: 19px;
+    padding: 15px;
+}

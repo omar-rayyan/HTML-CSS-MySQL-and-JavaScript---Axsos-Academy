@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+.header {
+    background-color: #9FC5F8;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+h1, h2, .cities-list {
+    display: inline-block;
+    color: white;
+}
+.cities-list {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 100px;
+    margin-right: 70px;
+}
+h1 {
+    font-size: 40px;
+    margin-left: 20px;
+}
+h2 a {
+    color: white;
+    text-decoration: none;
+}
+.content {
+    padding: 25px;
+}
+.selection-details-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+h3 {
+    display: inline-block;
+    font-size: 35px;
+}
+.temperature {
+    display: inline-block;
+    margin-right: 15px;
+}
+#temperature-label {
+    margin-right: 10px;
+}
+#temperature-selection {
+    width: 45px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 550;
+}
+#content-separator {
+    height: 2px;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.weather-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.weather-item {
+    background-color: #EEEEEE;
+    display: inline-block;
+    padding: 25px;
+    width: 420px;
+    height: 550px;
+}
+h4 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.weather-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.weather-description {
+    font-size: 30px;
+}
+.weather-illustration {
+    margin-bottom: 15px;
+}
+h5 {
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 40px;
+}
+.degrees-for-the-day {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+.highest {
+    color: red;
+    font-weight: 550;
+}
+.lowest {
+    color: #2B78E4;
+    font-weight: 550;
+}
+#cookies-box {
+    border: 3px solid black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 99%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+#cookie-img {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+}
+h6, #cookie-text {
+    display: inline-block;
+}
+h6 {
+    font-weight: 550;
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+}
+#cookie-text {
+    vertical-align: top;
+    margin-left: -50px;
+}
+#accept-cookies {
+    border: 2px solid black;
+    background-color: #9FC5F8;
+    width: 100px;
+    height: 35px;
+    font-size: 19px;
+    margin-right: 150px;
+    box-shadow: 2px 2px black;
+}
+p a {
+    color: #085394;
+}

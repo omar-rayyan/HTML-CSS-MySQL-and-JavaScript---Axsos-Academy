@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes II Website Assignment</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1 id="network-header">Network</h1>
+    </div>
+    <h1 id="your-feed-header">Your Feed</h1>
+    <div class="content">
+        <div class="userinfo">
+            <img id="user-circle-img" src="assets/user-circle.png" alt="User photo">
+            <h3 id="add-avatar"><a href="">Add an avatar</a></h3>
+            <h2 id="username-header">James Doe</h2>
+        </div>
+        <div class="feed-items">
+            <div class="feed-item">
+                <div class="username-likes-div">
+                    <h2 class="users-header">Neil M</h2>
+                    <div class="likes-div">
+                        <label class="likes" id="neil-likes">0 like(s)</label>
+                        <button class="like-button" onclick="addLike('neil-likes')">Like</button>
+                    </div>
+                </div>
+                <p class="filler-text">I just set up this new discrd bot, let me know what you all think. <a href="#">link</a></p>
+            </div>
+            <div class="feed-item">
+                <div class="username-likes-div">
+                    <h2 class="users-header">Nicole K</h2>
+                    <div class="likes-div">
+                        <label class="likes" id="nicole-likes">0 like(s)</label>
+                        <button class="like-button" onclick="addLike('nicole-likes')">Like</button>
+                    </div>
+                </div>
+                <p class="filler-text">Just finished my <a href="#">next comic</a>, check it out.</a></p>
+            </div>
+            <div class="feed-item">
+                <div class="username-likes-div">
+                    <h2 class="users-header">Jim R</h2>
+                    <div class="likes-div">
+                        <label class="likes" id="jim-likes">0 like(s)</label>
+                        <button class="like-button" onclick="addLike('jim-likes')">Like</button>
+                    </div>
+                </div>
+                <p class="filler-text">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

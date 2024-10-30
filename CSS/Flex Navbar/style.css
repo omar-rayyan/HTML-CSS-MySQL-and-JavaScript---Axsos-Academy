@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav {
+    background-color:dimgray;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: aliceblue;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+}
+.nav-links a:hover{
+    color: aqua;
+}
+.nav-links a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.btn {
+    background-color:lightskyblue;
+    box-shadow: black;
+    width: 80px;
+    height: 25px;
+}

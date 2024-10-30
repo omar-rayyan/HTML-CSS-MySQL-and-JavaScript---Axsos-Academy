@@ -1,0 +1,27 @@
+* {
+    font-family: cursive;
+}
+#black-background {
+    background-color: black;
+}
+#purple-background {
+    background-color: purple;
+}
+#cyan-background {
+    background-color: cyan;
+}
+#white-color {
+    color: white;
+}
+#cyan-color {
+    color: cyan;
+}
+#white-color-italic-centered {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+#blue-color-right-aligned {
+    color: blue;
+    text-align: right;
+}

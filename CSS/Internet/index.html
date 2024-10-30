@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Website Assignment</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="the-internet-header">
+            <img src="images/globe.png" id="globe-img" alt="Globe Icon for Internet">
+            <h1>The Inter<span class="internet-blue-text">net</span></h1>
+        </div>
+        <h2>The World Wide Web</h2>
+    </div>
+    <div class="content">
+        <div class="left-content">
+            <h3>So, what's an <span class="red-text">Internet?</span></h3>
+            <p id="internet-description">An <span class="blue-text">Inter</span>connected <span class="blue-text">Net</span>work of computers all around the world!</p>
+            <div class="left-buttons">
+                <button id="watch-a-video">WATCH A VIDEO</button>
+                <br>
+                <button id="more-resources">MORE RESOURCES</button>
+            </div>
+            <div id="left-content-separator"></div>
+            <div class="ad">
+                <h4 id="ad-text">Reinvent your career in just 14 weeks</h4>
+                <img id="ninja-img" src="images/ninja.png" alt="Ninja image">
+                <br>
+                <button id="learn-more">Learn More >>></button>
+            </div>
+        </div>
+        <div class="center-content">
+            <div class="center-content-header">
+                <div class="dns-div">
+                    <img id="home-img" src="images/home.png" alt="Home icon">
+                    <label id="dns-label">DNS</label>
+                </div>
+                <div class="phone-number-div">
+                    <img id="phone-img" src="images/phone.png" alt="Phone Icon">
+                    <div class="phone-number-details">
+                        <label>Mon - Fri 9 a.m. - 5 p.m. (EST)</label>
+                        <br>
+                        <label id="phone-number">855.967.3787</label>
+                        <br>
+                        <label>International +1.617.963.0555</label>
+                    </div>
+                </div>
+            </div>
+            <div id="center-content-separator"></div>
+            <div class="main-content">
+                <h5>Clients and Servers</h5>
+                <p>Computers connected to the <span class="cyan-text">Web</span> are called clients and servers.</p>
+                <ul>
+                    <li><span class="cyan-text">Clients</span> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or your phone connected to your mobile network) and <span class="cyan-text">Web-accessing software</span> available on those devices (usually a web browser like Firefox or Chrome).</li>
+                    <li><span class="cyan-text">Servers</span> are computers that store <span class="cyan-text">webpages</span>, <span class="cyan-text">sites</span>, or <span class="cyan-text">apps</span>. When a client device wants to access a webpage, a copy of the webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.</li>
+                </ul>
+                <div id="client-server-img-div">
+                    <img id="client-server-img" src="images/client_server.jpg" alt="Client-Server circle">
+                </div>
+                <h5>So What Actually Happens?</h5>
+                <ol>
+                    <li>The browser goes to the <span class="cyan-text">DNS server</span> and finds the real address of the <span class="cyan-text">server</span> that the website lives on.</li>
+                    <li>The browser sends an <span class="cyan-text">HTTP request</span> message to the server asking it to send a copy of the website to the client.</li>
+                    <li>If the server approves the client's request, the server sends the client a <span class="cyan-text">"200 OK" message</span>, which means "Permission granted! Here you go!", and then starts sending the website's files to the browser as a series of small chunks.</li>
+                    <li>The browser assembles the small chunks into a complete website and displays it to you!</li>
+                </ol>
+                <div class="the-big-three">
+                    <img id="the-big-three-img" src="images/html.png" alt="HTML, CSS & JavaScript Logos together in a circle">
+                    <div class="the-big-three-text">
+                        <h5 id="the-big-three-header">The Big 3 - HTML, CSS, JavaScript</h5>
+                        <p>While the server can process information in many different languages, the files that they serve to the client are <span class="italic-text">always</span> going to be some contribution of HTML, CSS and JavaScript!</p>
+                        <p>Learn more about the Big 3 <a href="">here</a>!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DojoWeather Website Assignment</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>DojoWeather</h1>
+        <div class="cities-list">
+            <h2 class="city"><a href="#" onclick="cityChange(this)">Burbank</a></h2>
+            <h2 class="city"><a href="#" onclick="cityChange(this)">Chicago</a></h2>
+            <h2 class="city"><a href="#" onclick="cityChange(this)">Dallas</a></h2>
+        </div>
+    </div>
+    <div class="content">
+        <div class="selection-details-content">
+            <h3 id="city-name">San Jose</h3>
+            <div class="temperature">
+                <label id="temperature-label">show temperature in</label>
+                <select name="temperature-selection-dropbox" id="temperature-selection" onchange="updateTemperatures()">
+                    <option value="celsius">&deg;C</option>
+                    <option value="fahrenheit">&deg;F</option>
+                </select>
+            </div>
+        </div>
+        <div id="content-separator"></div>
+        <div class="weather-content">
+            <div class="weather-item">
+                <h4>Today</h4>
+                <div class="weather-illustration">
+                    <img class="weather-img" src="assets/some_rain.png" alt="Rainy weather illustration">
+                </div>
+                <label class="weather-description">some rain</label>
+                <div class="degrees-for-the-day">
+                    <h5 class="highest temperature-value">24°</h5>
+                    <h5 class="lowest temperature-value">18°</h5>
+                </div>
+            </div>
+            <div class="weather-item">
+                <h4>Tomorrow</h4>
+                <div class="weather-illustration">
+                    <img class="weather-img" src="assets/some_sun.png" alt="Sunny weather illustration">
+                </div>
+                <label class="weather-description">some sun</label>
+                <div class="degrees-for-the-day">
+                    <h5 class="highest temperature-value">27°</h5>
+                    <h5 class="lowest temperature-value">19°</h5>
+                </div>
+            </div>
+            <div class="weather-item">
+                <h4>Friday</h4>
+                <div class="weather-illustration">
+                    <img class="weather-img" src="assets/some_clouds.png" alt="Cloudy weather illustration">
+                </div>
+                <label class="weather-description">some clouds</label>
+                <div class="degrees-for-the-day">
+                    <h5 class="highest temperature-value">21°</h5>
+                    <h5 class="lowest temperature-value">16°</h5>
+                </div>
+            </div>
+            <div class="weather-item">
+                <h4>Saturday</h4>
+                <div class="weather-illustration">
+                    <img class="weather-img" src="assets/some_sun.png" alt="Sunny weather illustration">
+                </div>
+                <label class="weather-description">some sun</label>
+                <div class="degrees-for-the-day">
+                    <h5 class="highest temperature-value">26°</h5>
+                    <h5 class="lowest temperature-value">21°</h5>
+                </div>
+            </div>
+        </div>
+        <div id="cookies-box">
+            <img src="assets/cookie.png" alt="Cookie image" id="cookie-img">
+            <div id="cookie-text">
+                <h6>Stop! Cookie time</h6>
+                <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="">Read more...</a></p>
+            </div>
+            <button id="accept-cookies" onclick="removeElement('cookies-box')">I Accept</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#main {
+    background-color: aliceblue;
+    width: 700px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+h1 {
+    color: lightslategray;
+    font-family: sans-serif;
+}
+#source-label {
+    font-family: serif;
+}
+img {
+    height: 200px;
+}
+#first-block, #second-block, #third-block {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#first-block {
+    background-color: aqua;
+}
+#second-block {
+    background-color:indianred;
+}
+#third-block {
+    background-color:blanchedalmond;
+}

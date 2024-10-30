@@ -1,0 +1,207 @@
+@media (min-width: 1920px) {
+    #python-logo {
+        width: 495px;
+        height: 1px;
+    }
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+#body-style {
+    background-color: #265175;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.content-2 {
+    background-color: whitesmoke;
+    display: flex;
+    margin: 0px auto;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#python-logo {
+    padding: 25px;
+    width: 495px;
+    height: 140px;
+    display: inline-block;
+}
+.search-textsize {
+    display: inline-block;
+    vertical-align: top;
+    align-items: center;
+}
+.search-div {
+    background-color: rgb(48, 44, 44);
+    display: inline-flex;
+    margin-top: 5px;
+    width: 320px;
+    height: 80px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 2px 2px black;
+    border-radius: 10px;
+    margin-left: -50px;
+}
+.searchbox-button-div {
+    margin: 0px auto;
+}
+#searchbox {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border: 2px solid gainsboro;
+    box-shadow: 1px 1px black;
+}
+#go-button {
+    width: 40px;
+    height: 30px;
+    color: white;
+    box-shadow: 1px 1px black;
+    background-color: #265175;
+    border-radius: 5px;
+    border: 2px solid rgb(170, 160, 160);
+}
+#textsize-label {
+    color: white;
+    margin-left: 70px;
+}
+#black-colored-text {
+    color: black;
+}
+.textsizes-label {
+    color: yellow;
+    text-decoration: underline;
+}
+.navigation-bar {
+    display: flex;
+    width: 1300px;
+    height: 50px;
+    margin: 0px auto;
+    background-color: #4b80ab;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+}
+.navigation-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    font-size: 30px;
+    gap: 70px;
+    list-style: none;
+}
+.navigation-links a {
+    text-decoration: none;
+    color: white;
+}
+.side-links {
+    display: inline-flex;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+#contents-separating-line {
+    height: 3px;
+    background-color: #1a3852;
+}
+.titles-separating-line {
+    height: 4px;
+    width: 450px;
+    margin: 0px auto;
+    background-color: #75a8d3;
+}
+.side-links-list a {
+    color: white;
+}
+.content-1 {
+    display: inline-flex;
+    margin-top: 25px;
+    margin-left: 360px;
+}
+.main-content-1 {
+    margin-left: 200px;
+}
+#about-python {
+    color: white;
+    text-align: center;
+    width: 700px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-style: italic;
+    color: #ffd343;
+    text-align: center;
+    margin-bottom: 2px;
+}
+h3 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.side-links-list li {
+    margin-bottom: 10px;
+}
+.getting-started {
+    display: inline-block;
+    margin-right: 50px;
+}
+.content-2-paragraphs {
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.applications {
+    display: inline-block;
+    vertical-align: top;
+}
+h2 {
+    text-align: center;
+}
+.content-2-links-list {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 19px;
+    text-align: center;
+    
+}
+.content-2-links-list a {
+    color: #75a8d3;
+    text-decoration: none;
+}
+.footer-links {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    text-align: center;
+    margin: 0px auto;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 23px;
+    margin-bottom: -10px;
+}
+.footer-links a, #pypi a {
+    color: #89bae3;
+    text-decoration: none;
+}
+#copyright-label {
+    display: flex;
+    padding-bottom: 5px;
+    font-size: 12px;
+    color: #89bae3;
+    justify-content: center;
+}
