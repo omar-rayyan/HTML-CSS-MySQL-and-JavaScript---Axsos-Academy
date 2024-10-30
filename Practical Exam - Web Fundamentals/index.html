@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otaku</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="website-logo">
+            <img src="assets/slider/5.jpg" alt="Otaku Website Logo" id="website-logo">
+            <h1>Ota<span>ku</span></h1>
+        </div>
+        <div class="searchbox-items">
+            <input type="text" placeholder="search" id="searchbox">
+            <img src="assets/utilities/search.png" alt="Search Icon" id="search-icon" onclick="displaySearchboxValue()">
+            <img src="assets/utilities/microphone.png" alt="Microphone Icon" id="microphone-icon">
+        </div>
+        <div class="hearts-header">
+            <img src="assets/utilities/heart.png" alt="Red heart icon">
+            <label id="favroites-count">0</label>
+        </div>
+    </div>
+    <div class="navbar">
+        <ul class="navbar-items">
+            <li>Home</li>
+            <li>Category</li>
+            <li>Contact Us</li>
+            <li>About Us</li>
+            <button id="sign-in">sign in</button>
+        </ul>
+    </div>
+    <div class="featured-anime">
+        <img src="assets/utilities/left_arrow.png" alt="Left facing arrow" id="left-arrow" onclick="switchBetweenSlides('left')">
+        <img src="assets/slider/3.jpg" alt="Fate / Stay night anime cover - featured item" id="featured-anime-cover">
+        <img src="assets/utilities/right_arrow.png" alt="Right facing arrow" id="right-arrow" onclick="switchBetweenSlides('right')">
+    </div>
+    <button id="watch-now" onclick="removeElement(this)">Watch Now</button>
+    <div class="main">
+        <div class="trending-now">
+            <h2>Trending Now</h2>
+            <div class="trending-items">
+                <div class="trending-item">
+                    <img src="assets/trendingnow/Naruto.jpg" alt="Naruto: A trending anime cover" class="trending-item-cover">
+                    <div class="trending-item-title">
+                        <h3 class="trending-item-name">Naruto</h3>
+                        <img src="assets/utilities/heart.png" alt="Heart icon - Favorite Trending anime button" class="trending-item-favorite-button" onclick="addToFavorites(this)">
+                    </div>
+                    <button class="show-more">Show More</button>
+                </div>
+                <div class="trending-item">
+                    <img src="assets/trendingnow/One Piece.jpg" alt="One Piece: A trending anime cover" class="trending-item-cover">
+                    <div class="trending-item-title">
+                        <h3 class="trending-item-name">One Piece</h3>
+                        <img src="assets/utilities/heart.png" alt="Heart icon - Favorite Trending anime button" class="trending-item-favorite-button" onclick="addToFavorites(this)">
+                    </div>
+                    <button class="show-more">Show More</button>
+                </div>
+                <div class="trending-item">
+                    <img src="assets/trendingnow/Attack on Titan.jpg" alt="Death Note: A trending anime cover" class="trending-item-cover">
+                    <div class="trending-item-title">
+                        <h3 class="trending-item-name">Death Note</h3>
+                        <img src="assets/utilities/heart.png" alt="Heart icon - Favorite Trending anime button" class="trending-item-favorite-button" onclick="addToFavorites(this)">
+                    </div>
+                    <button class="show-more">Show More</button>
+                </div>
+                <div class="trending-item">
+                    <img src="assets/trendingnow/Dragon Ball.jpg" alt="DragonBall: A trending anime cover" class="trending-item-cover">
+                    <div class="trending-item-title">
+                        <h3 class="trending-item-name">DragonBall</h3>
+                        <img src="assets/utilities/heart.png" alt="Heart icon - Favorite Trending anime button" class="trending-item-favorite-button" onclick="addToFavorites(this)">
+                    </div>
+                    <button class="show-more">Show More</button>
+                </div>
+                <div class="trending-item">
+                    <img src="assets/trendingnow/Hunter x Hunter.jpg" alt="Hunter: A trending anime cover" class="trending-item-cover">
+                    <div class="trending-item-title">
+                        <h3 class="trending-item-name">Hunter</h3>
+                        <img src="assets/utilities/heart.png" alt="Heart icon - Favorite Trending anime button" class="trending-item-favorite-button" onclick="addToFavorites(this)">
+                    </div>
+                    <button class="show-more">Show More</button>
+                </div>
+                <div class="trending-item">
+                    <img src="assets/trendingnow/Steinsgate.jpg" alt="SteinsGate: A trending anime cover" class="trending-item-cover">
+                    <div class="trending-item-title">
+                        <h3 class="trending-item-name">SteinsGate</h3>
+                        <img src="assets/utilities/heart.png" alt="Heart icon - Favorite Trending anime button" class="trending-item-favorite-button" onclick="addToFavorites(this)">
+                    </div>
+                    <button class="show-more">Show More</button>
+                </div>
+            </div>
+        </div>
+        <div class="top-views">
+            <h2>Top Views</h2>
+            <div class="top-views-items">
+                <img src="assets/topviews/tv-1.jpg" alt="A top viewed anime cover" class="top-views-cover">
+                <img src="assets/topviews/tv-4.jpg" alt="A top viewed anime cover" class="top-views-cover">
+                <img src="assets/topviews/tv-3.jpg" alt="A top viewed anime cover" class="top-views-cover">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-links">
+            <div class="footer-links-item">
+                <h4>Website Info</h4>
+                <ul class="footer-links-list">
+                    <li><a href=""><span id="ota-black">Ota</span><span id="ku-red">ku</span></a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-links-item">
+                <h4>Important Links</h4>
+                <ul class="footer-links-list">
+                    <li><a href="">Anime List</a></li>
+                    <li><a href="">Anime News</a></li>
+                </ul>
+            </div>
+            <div class="footer-links-item">
+                <h4>Legal Info&Policies</h4>
+                <ul class="footer-links-list">
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="footer-links-item">
+                <h4>Help and Support</h4>
+                <ul class="footer-links-list">
+                    <li><a href="">Technical Support</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-info">
+            <div class="footer-info-item" id="social-media-footer-item">
+                <h4>Social Media Link</h4>
+                <div class="social-media-links">
+                    <img src="assets/socialmedia/facebook.png" alt="Facebook Icon - Hyperlink to Facebook page" class="social-media-img">
+                    <img src="assets/socialmedia/instagram.png" alt="Instagram Icon - Hyperlink to Instagram page" class="social-media-img">
+                    <img src="assets/socialmedia/twitter.png" alt="Twitter Icon - Hyperlink to Twitter page" class="social-media-img">
+                </div>
+            </div>
+            <div class="footer-info-item">
+                <h4>Copyrights Info</h4>
+                <p>Copyright &copy;2024 All rights reserved | This template is made with by <a href="https://axsos.academy/">Axsos Academy</a></p>
+            </div>
+            <div class="footer-info-item" id="contact-us-footer-item">
+                <h4>Contact Us</h4>
+                <div>
+                    <input type="text" placeholder="email@axsos.academy" class="contact-us-textbox">
+                    <input type="text" placeholder="yourname" class="contact-us-textbox">
+                </div>
+                <button id="send-button">send</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
